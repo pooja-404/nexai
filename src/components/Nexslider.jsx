@@ -1,0 +1,114 @@
+import React from 'react'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import Nexslider2 from './Nexslider';
+import Nexslider3 from './Nexslider';
+
+const productcard = [
+    {
+        heading: "NexAi, Turn on light",
+    },
+    {
+        heading: "NexAi, setalarm of 5:00 am",
+    },
+    {
+        heading: "NexAi, measure this table",
+    },
+    {
+        heading: "NexAi, Turn on music",
+    }
+];
+const productcard2 = [
+    {
+        heading: "NexAi, Turn on light",
+    },
+    {
+        heading: "NexAi, setalarm of 5:00 am",
+    },
+    {
+        heading: "NexAi, measure this table",
+    },
+    {
+        heading: "NexAi, Turn on music",
+    }
+];
+const productcard3 = [
+    {
+        heading: "NexAi, Turn on light",
+    },
+    {
+        heading: "NexAi, setalarm of 5:00 am",
+    },
+    {
+        heading: "NexAi, measure this table",
+    },
+    {
+        heading: "NexAi, Turn on music",
+    }
+];
+const Nexslider = () => {
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 4000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        variableWidth: true,
+        autoplay: true,
+    };
+    var settings2 = {
+        dots: false,
+        infinite: true,
+        speed: 4000,
+        slidesToShow: 1,
+        slidesToScroll: -1,
+        arrows: false,
+        variableWidth: true,
+        autoplay: true,
+    };
+    var settings3 = {
+        dots: false,
+        infinite: true,
+        speed: 4000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        variableWidth: true,
+        autoplay: true,
+    };
+
+    const list = productcard.map((productcard, p) => (
+        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" data-aos="flip-down" key={p} >
+            <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
+        </div>
+    ));
+    const list2 = productcard2.map((productcard2, p) => (
+        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" data-aos="flip-down" key={p} >
+            <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
+        </div>
+    ));
+    const list3 = productcard3.map((productcard3, p) => (
+        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" data-aos="flip-down" key={p} >
+            <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
+        </div>
+    ));
+    return (
+        <>
+            <div className=' md:mt-24 lg:mt-0'>
+                <div className="max-w-[144 0px] mx-auto " >
+                    <h2 className='font-recharge font-bold text-[40px] leading-[50px] text-[#02CDCF] text-center mx-auto'>NexAi does all this. And more.</h2>
+                    <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                    <Slider  {...settings}>
+                        {list}
+                    </Slider>
+                </div>
+            </div>
+            <Slider {...settings2}>{list2}</Slider>
+            <Slider {...settings3}>{list3}</Slider>
+            
+        </>
+    )
+}
+export default Nexslider

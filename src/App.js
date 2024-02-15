@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Headersec from './components/Headersec';
+import Power from './components/Power';
+import Unique from './components/Unique';
+import Nexai from './components/Nexai';
+import Utility from './components/Utility';
+import Ready from './components/Ready';
+import Footersec from './components/Footersec';
+import Blockchain from './components/Blockchain';
+import Nexslider from './components/Nexslider';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-[#040404]">
+      <Headersec />
+      <Power />
+      <Unique />
+      <Blockchain />
+      <Nexslider />
+      <Nexai />
+      <Utility />
+      <Ready />
+      <Footersec />
     </div>
   );
 }
-
 export default App;
