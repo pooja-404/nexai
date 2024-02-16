@@ -9,12 +9,25 @@ import Ready from './components/Ready';
 import Footersec from './components/Footersec';
 import Blockchain from './components/Blockchain';
 import Nexslider from './components/Nexslider';
-
+import Backtotop from './components/Backtotop';
+import Preloder from './components/Preloder';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 2000,
+      }
+    );
+  }, [])
   return (
     <div className="bg-[#040404]">
+      {/* <Preloder /> */}
       <Headersec />
       <Power />
       <Unique />
@@ -24,6 +37,7 @@ function App() {
       <Utility />
       <Ready />
       <Footersec />
+      <Backtotop />
     </div>
   );
 }

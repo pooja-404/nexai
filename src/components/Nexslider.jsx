@@ -21,93 +21,99 @@ const productcard = [
 ];
 const productcard2 = [
     {
-        heading: "NexAi, Turn on light",
-    },
-    {
-        heading: "NexAi, setalarm of 5:00 am",
-    },
-    {
         heading: "NexAi, measure this table",
     },
     {
         heading: "NexAi, Turn on music",
+    },
+    {
+        heading: "NexAi, Turn on light",
+    },
+    {
+        heading: "NexAi, is the front door locked?",
     }
 ];
 const productcard3 = [
     {
-        heading: "NexAi, Turn on light",
-    },
-    {
-        heading: "NexAi, setalarm of 5:00 am",
-    },
-    {
-        heading: "NexAi, measure this table",
+        heading: "NexAi, Turn on TV",
     },
     {
         heading: "NexAi, Turn on music",
+    },
+    {
+        heading: "NexAi, Turn of AC.",
+    },
+    {
+        heading: "NexAi, Lock the front door",
     }
 ];
 const Nexslider = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 4000,
-        slidesToShow: 1,
+        speed: 1000,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         variableWidth: true,
+        autoplaySpeed: 0,
+        cssEase: "linear",
         autoplay: true,
     };
     var settings2 = {
         dots: false,
         infinite: true,
-        speed: 4000,
-        slidesToShow: 1,
+        speed: 1000,
+        slidesToShow: 4,
         slidesToScroll: -1,
         arrows: false,
         variableWidth: true,
+        autoplaySpeed: 0,
+        cssEase: "linear",
         autoplay: true,
     };
     var settings3 = {
         dots: false,
         infinite: true,
-        speed: 4000,
-        slidesToShow: 1,
+        speed: 1000,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         variableWidth: true,
+        autoplaySpeed: 0,
+        cssEase: "linear",
         autoplay: true,
     };
 
     const list = productcard.map((productcard, p) => (
-        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" data-aos="flip-down" key={p} >
+        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
             <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
         </div>
     ));
     const list2 = productcard2.map((productcard2, p) => (
-        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" data-aos="flip-down" key={p} >
+        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
             <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
         </div>
     ));
     const list3 = productcard3.map((productcard3, p) => (
-        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" data-aos="flip-down" key={p} >
+        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" key={p} >
             <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
         </div>
     ));
     return (
         <>
-            <div className=' md:mt-24 lg:mt-0'>
+            <div className='lg:py-24 relative z-10' id='Marketplace'>
                 <div className="max-w-[144 0px] mx-auto " >
-                    <h2 className='font-recharge font-bold text-[40px] leading-[50px] text-[#02CDCF] text-center mx-auto'>NexAi does all this. And more.</h2>
-                    <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                    <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px]  text-[#02CDCF] text-center mx-auto'data-aos="zoom-in">NexAi does all this. And more.</h2>
+                    <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                     <Slider  {...settings}>
                         {list}
                     </Slider>
+                    <Slider {...settings2}>{list2}</Slider>
+                    <Slider {...settings3}>{list3}</Slider>
                 </div>
+                <div className='w-[233px] h-[233px] bg-[#02CDCF]  blur-[200px] rounded-full absolute right-0 top-[-13%] z-[-10]'></div>
             </div>
-            <Slider {...settings2}>{list2}</Slider>
-            <Slider {...settings3}>{list3}</Slider>
-            
         </>
     )
 }
