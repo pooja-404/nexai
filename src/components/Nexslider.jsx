@@ -208,10 +208,10 @@ const Nexslider = () => {
     ));
     return (
         <>
-            <div className='lg:py-24 relative z-10' id='Marketplace'>
+            <div className='lg:py-20 relative z-10' id='Marketplace'>
                 <div className="max-w-[144 0px] mx-auto " >
                     <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px]  text-[#02CDCF] text-center mx-auto'data-aos="zoom-in">NexAi does all this. And more.</h2>
-                    <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                    <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2 lg:pb-7'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                     <Slider  {...settings}>
                         {list}
                     </Slider>

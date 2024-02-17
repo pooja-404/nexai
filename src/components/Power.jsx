@@ -5,7 +5,7 @@ import Button from './Button'
 function Power() {
     return (
         <div className='lg:my-24 my-10 relative z-10' id='nexchat'>
-            <div className='max-w-[1140px] mx-auto px-3 mt-18'>
+            <div className='max-w-[1140px] mx-auto px-3 lg:mt-24'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 relative z-10'>
                         <img src={powerhouse} alt="poker" className='max-lg:w-full  lg:-translate-x-32' data-aos="fade-right" />
