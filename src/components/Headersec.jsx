@@ -16,8 +16,8 @@ function Headersec() {
     return (
         <div className='lg:px-12 px-5 pt-2 relative z-[1] min-h-screen'>
             <div className="pt-[13px] bg-[url(./assets/images/aibg.webp)] flex bg-center flex-col bg-cover xl:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
-                <nav className="!max-w-[1920px]  lg:mx-28">
-                    <div className='flex items-center pt-7 lg:mb-20 justify-between'>
+                <nav className="!max-w-[1920px] lg:mx-24">
+                    <div className='flex items-center pt-7  justify-between'>
                         <div></div>
                         <ul
                             className={` gap-5 flex mobileView ${show ? "right-0" : "right-[-100%]"}`}
@@ -92,8 +92,8 @@ function Headersec() {
                 <div className='flex-grow flex justify-center flex-col' id='home'>
                     <div className='max-w-[1140px] px-3 xl:pl-36 '>
                         <h2 className='font-recharge  font-normal text-white lg:text-[60px] sm:text-6xl text-4xl lg:leading-[75px] max-w-[577px]'><span className=' text-[#02CDCF]  '>Nexai</span> is an advanced AI-powered home assistant</h2>
-                        <p className='font-poppins font-normal text-base text-[#b3b7bb] pt-5'>Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla odio.</p>
-                        <Button name='!mt-20' text='Know More' />
+                        <p className='font-poppins font-normal text-base text-[#b3b7bb] pt-5 pb-16'>Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla odio.</p>
+                        <Button name='n' text='Know More' />
                     </div>
                 </div>
             </div>
@@ -101,5 +101,4 @@ function Headersec() {
         </div>
     )
 }
-
 export default Headersec
