@@ -2,8 +2,6 @@ import React from 'react'
 import Ai from '../assets/images/ai.webp'
 import Button from './Button'
 
-
-
 function Nexai() {
     return (
         <>

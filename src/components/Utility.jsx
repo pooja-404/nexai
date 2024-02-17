@@ -6,7 +6,7 @@ function Utility() {
     return (
         <div className='lg:py-24 relative z-10' id='about'>
             <div className='max-w-[1140px] mx-auto px-3 mb-10 '>
-                <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#02CDCF] text-center pb-10'>NexAI Token & utility</h2>
+                <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#02CDCF] text-center pb-10' data-aos="zoom-in">NexAI Token & utility</h2>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 max-lg:text-center overfl ow-clip' data-aos="fade-right">
                         <img src={utility} alt="poker" className='max-lg:w-full xl:-translate-x-32 mix-blend-overlay'  />
@@ -76,9 +76,8 @@ function Utility() {
                 </div>
             </div>
             <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[200px] rounded-full absolute right-0 top-[28%] z-[-10] lg:block hidden'></div>
-            <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[200px] rounded-full absolute left-0 top-0 z-[-10] lg:block hidden'></div>
+            <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[200px] rounded-full absolute left-0 top-[-40%] z-[-10] lg:block hidden'></div>
             <img src={ellipse3} alt="poker" className='absolute right-0 top-[-1%] z-[-10]' />
-
         </div>
     )
 }

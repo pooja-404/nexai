@@ -8,7 +8,7 @@ function Unique() {
             <div className='max-w-[1340px] mx-auto lg:px-24 md:px-16 px-8 lg:my-24  border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/service.webp)] h-[810px] w-full bg-center bg-cover object-cover bg-no-repeat' id='tokens'>
                 <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px] text-[#FCFCFC] mx-auto text-center pt-16'data-aos="zoom-in">Unique features</h2>
                 <p className='font-poppins font-normal text-base leading-[25px] text-[#b3b7bb] text-center max-w-[397px] mx-auto pt-4'data-aos="zoom-in">ability to engage in natural, fluent conversations in over 15 languages,</p>
-                <div className=' overflow-y-scroll sm:h-[590px] h-[520px] max-[425px]:h-[602px]   flex flex-wrap flex-row -mx-3 mt-10  '>
+                <div className=' overflow-y-scroll sm:h-[590px] h-[520px] max-[475px]:h-[602px]   flex flex-wrap flex-row -mx-3 mt-10  '>
                     <div className='md:w-1/2 w-full px-3'>
                         <div className='lg:max-w-[364px] rounded-[16px] bg-white px-6 pb-14 mt-32'>
                             <img src={unique} alt="unique" className='pt-7' />
