@@ -3,8 +3,8 @@ import { FooterFacebook, FooterTelligram, FooterTwitter } from './Icons'
 
 function Footersec() {
     return (
-        <div className='relative z-10'>
-            <div className='max-w-[1140px] px-3 mx-auto lg:pt-28 bg-[url(./assets/images/footerbg.webp)] bg-center lg:bg-BgSize bg-cover object-cover bg-no-repeat'>
+        <div className='relative z-10 bg-[url(./assets/images/footerbg.webp)] bg-center lg:bg-BgSize bg-cover object-cover bg-no-repeat'>
+            <div className='max-w-[1140px] px-3 mx-auto lg:pt-28 '>
                 <div className='flex flex-wrap flex-row -mx-3 pb-4'>
                     <div className='lg:w-7/12 w-full px-3' data-aos="fade-right">
                         <h2 className='font-recharge font-bold text-base text-[#b3b7bb] lg:max-w-[356px] lg:pt-14'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</h2>
@@ -18,7 +18,7 @@ function Footersec() {
                         </div>
                     </div>
                     <div className='lg:w-5/12 w-full px-3 sm:pt-10 pt-5 lg:pt-0' data-aos="fade-left">
-                        <div className='flex flex-wrap flex-row -mx-3'>
+                        <div className='flex flex-wrap flex-row -mx-3 lg:pb-5'>
                             <div className='w-1/2 px-3'>
                                 <ul>
                                     <li className="font-recharge font-bold text-lg leading-[21px] text-[#FCFCFC]"> Quick links</li>
