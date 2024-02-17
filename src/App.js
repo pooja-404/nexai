@@ -26,8 +26,8 @@ function App() {
     );
   }, [])
   return (
-    <div className="bg-[#040404]">
-      {/* <Preloder /> */}
+    <div className="bg-[#040404] overflow-x-clip">
+      <Preloder />
       <Headersec />
       <Power />
       <Unique />

@@ -2,8 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Nexslider2 from './Nexslider';
-import Nexslider3 from './Nexslider';
+
 
 const productcard = [
     {
@@ -51,7 +50,7 @@ const Nexslider = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
@@ -59,11 +58,47 @@ const Nexslider = () => {
         autoplaySpeed: 0,
         cssEase: "linear",
         autoplay: true,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    CenterMode: true,
+                    arrow: false,
+                }
+            },
+           
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    CenterMode: true,
+                    dots: false,
+                    arrow: false,
+
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    CenterMode: true,
+                    dots: false,
+                    arrow: false,
+                }
+            }
+        ]
     };
     var settings2 = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 4,
         slidesToScroll: -1,
         arrows: false,
@@ -71,11 +106,47 @@ const Nexslider = () => {
         autoplaySpeed: 0,
         cssEase: "linear",
         autoplay: true,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    CenterMode: true,
+                    arrow: false,
+                }
+            },
+         
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    CenterMode: true,
+                    dots: false,
+                    arrow: false,
+
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    CenterMode: true,
+                    dots: false,
+                    arrow: false,
+                }
+            }
+        ]
     };
     var settings3 = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
@@ -83,21 +154,56 @@ const Nexslider = () => {
         autoplaySpeed: 0,
         cssEase: "linear",
         autoplay: true,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    CenterMode: true,
+                    arrow: false,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    CenterMode: true,
+                    dots: false,
+                    arrow: false,
+
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    CenterMode: true,
+                    dots: false,
+                    arrow: false,
+                }
+            }
+        ]
     };
 
     const list = productcard.map((productcard, p) => (
         <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
-            <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[18px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
         </div>
     ));
     const list2 = productcard2.map((productcard2, p) => (
         <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
-            <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[18px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
         </div>
     ));
     const list3 = productcard3.map((productcard3, p) => (
         <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" key={p} >
-            <p className='font-recharge font-bold text-[24px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[18px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
         </div>
     ));
     return (

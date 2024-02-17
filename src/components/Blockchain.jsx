@@ -3,8 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import sliderimg1 from '../assets/images/blockcard.webp'
 import Slider from "react-slick";
-import ellipse1 from '../assets/images/ellipse1.png'
-import ellipse2 from '../assets/images/ellipse2.png'
+import ellipse1 from '../assets/images/ellipse1.webp'
+import ellipse2 from '../assets/images/ellipse2.webp'
 
 const cards = [
     {
@@ -34,7 +34,7 @@ const Blockchain = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -71,7 +71,7 @@ const Blockchain = () => {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     CenterMode: true,
-                    dots: true,
+                    dots: false,
                     arrow: false,
 
                 }
@@ -82,7 +82,7 @@ const Blockchain = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     CenterMode: true,
-                    dots: true,
+                    dots: false,
                     arrow: false,
                 }
             }
@@ -99,17 +99,17 @@ const Blockchain = () => {
         </div>
     </div>));
     return (
-        <div className='lg:py-24 py-10 relative z-10 Blockchain overflow-x-clip'>
+        <div className='lg:pb-24 lg:pt-20 py-10 relative z-10 Blockchain overflow-x-clip'>
             <div className="max-w-[1140px] mx-auto px-3" >
                 <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px] text-[#02CDCF] text-center'data-aos="zoom-in">Blockchain & AI technology</h2>
                 <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  text-center pt-7 'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
-                <p className='font-recharge font-bold text-xl leading-[32px] text-center text-[#FCFCFC] lg:w-[684px] mx-auto py-20'data-aos="zoom-in">By building the software on blockchain, Nexai provides the following advantages</p>
+                <p className='font-recharge font-bold text-xl leading-[32px] text-center text-[#FCFCFC] lg:w-[684px] mx-auto py-7 lg:py-20'data-aos="zoom-in">By building the software on blockchain, Nexai provides the following advantages</p>
                 <Slider {...settings}>{card}</Slider>
             </div>
             <div className='w-[302px] h-[262px] bg-[#02CDCF]  blur-[210px] rounded-full absolute right-0 top-[16%] z-[-10]'></div>
-            <div className='w-[302px] h-[262px] bg-[#02CDCF]  blur-[210px] rounded-full absolute left-0 top-[10%] z-20'></div>
+            <div className='w-[302px] h-[262px] bg-[#02CDCF]  blur-[210px] rounded-full absolute left-0 top-[10%] z-20 lg:block hidden'></div>
             <img src={ellipse1} alt="poker" className=' absolute right-0 top-[-4%] z-[-10]' />
-            <img src={ellipse2} alt="poker" className=' absolute left-0 bottom-0 z-10 ' />
+            <img src={ellipse2} alt="poker" className=' absolute left-0 bottom-0 z-10 lg:block hidden ' />
         </div>
     )
 }

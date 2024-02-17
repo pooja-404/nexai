@@ -1,14 +1,14 @@
 import React from 'react'
 import Button from './Button'
-import ellipse4 from '../assets/images/ellipse4.png'
+import ellipse4 from '../assets/images/ellipse4.webp'
 
 function Ready() {
     return (
         <div className='relative z-10'>
             <div className='max-w-[1140px] px-3 mx-auto my-24'>
                 <div className='lg:flex lg:justify-between items-center'>
-                    <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#FCFCFC] max-lg:text-center lg:max-w-[517px]' data-aos="zoom-out-up">Ready to get started <span className='text-[#02CDCF]'>Talk to us Today</span></h2>
-                    <div className='max-lg:flex justify-center pt-5 lg:pt-0' data-aos="zoom-out-down">
+                    <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#FCFCFC] max-lg:text-center lg:max-w-[517px]' data-aos="fade-right">Ready to get started <span className='text-[#02CDCF]'>Talk to us Today</span></h2>
+                    <div className='max-lg:flex justify-center pt-5 lg:pt-0' data-aos="fade-left">
                         <Button name='' text='Get Started' />
                     </div>
                 </div>

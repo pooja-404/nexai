@@ -8,7 +8,7 @@ function Footersec() {
                 <div className='flex flex-wrap flex-row -mx-3 pb-4'>
                     <div className='lg:w-7/12 w-full px-3' data-aos="fade-right">
                         <h2 className='font-recharge font-bold text-base text-[#b3b7bb] lg:max-w-[356px] lg:pt-14'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</h2>
-                        <div className="flex gap-2 pt-3">
+                        <div className="flex gap-3 pt-5">
                             <a href="https://www.facebook.com" target="_blank" className="hover:translate-y-[-5px] hover:shadow-[0px_5px_8px_#02CDCF] transition-all ease-linear duration-500 rounded-[50px]"><FooterFacebook />
                             </a>
                             <a href="https://www.twitter.com" target="_blank" className="hover:translate-y-[-5px] hover:shadow-[0px_5px_8px_#02CDCF] transition-all ease-linear duration-500 rounded-[50px]"><FooterTwitter />

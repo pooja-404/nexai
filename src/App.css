@@ -43,21 +43,35 @@
   background: transparent;
 }
 
-.Blockchain .slick-list {
-  overflow: visible;
+.slick-list {
+  overflow: visible !important;
   position: relative;
   z-index: 1;
+
 }
 
 .Blockchain .slick-list::after {
   content: ' ';
   position: absolute;
-  top: 0px;
-  bottom: -15px;
-  top: -70%;
-  width: 6000px;
+  top: -96%;
+  bottom: 12%;
+  width: 60500px;
   /* height: 100%; */
   right: 103.6%;
   /* z-index: 1; */
   background-color: #040404;
+}
+
+.slick-slide>div {
+  display: flex;
+  width: 100%;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
 }

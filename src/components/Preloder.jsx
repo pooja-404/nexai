@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import preloder2 from '../assets/images/preloder.gif'
+import preloder from '../assets/images/ai.webp'
+
 
 const Preloder = () => {
     const [loder, setloader] = useState(true);
@@ -20,12 +21,13 @@ const Preloder = () => {
             {loder ? (
                 <section
                     style={{ zIndex: "999999999" }}
-                    className="bg-[#000] top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center">
-                    <div className="bg-[#000] ">
-                        
-                                <img src={preloder2} alt="cpanel" className=" " />
+                    className="bg-[#040404] top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center">
+                    <div className="relative flex justify-center items-center">
+                        <div className="absolute animate-spin rounded-full h-40 w-40 border-t-8 border-b-8 border-[#02CDCF]"></div>
+                        <img src={preloder} alt="cpanel" className="rounded-full h-32 w-32" />
+                    </div>
+                    <p className="font-bold text-[40px] leading-[31px] font-recharge text-[#02CDCF] mt-9">Nexai</p>
 
-                    </div>;
                 </section>
             ) : (
                 ""
