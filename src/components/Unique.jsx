@@ -1,8 +1,4 @@
 import React from 'react'
-import unique from '../assets/images/unique.webp'
-import unique2 from '../assets/images/unique2.webp'
-import unique3 from '../assets/images/unique3.webp'
-import unique4 from '../assets/images/unique4.webp'
 import { Unique1, Unique2, Unique3, Unique4 } from './Icons'
 
 function Unique() {
