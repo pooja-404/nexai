@@ -95,15 +95,15 @@ const Blockchain = () => {
             <div className='w-[58px] h-[58px] rounded-full bg-[#040404] mt-12 shadow-[0px_4px_16px_0px_#02CDCF99_inset] flex justify-center items-center'>
                 <p className='font-recharge font-bold text-[32px] leading-[50px] text-[#FCFCFC]'>{cards.text}</p>
             </div>
-            <h2 className='text-[#FCFCFC] pt-10 font-recharge font-bold text-xl leading-[32px] text-center max-w-[212px] mx-auto'> {cards.heading}</h2>
+            <h2 className='text-[#FCFCFC] pt-10 font-recharge font-bold text-base sm:text-xl leading-[32px] text-center max-w-[212px] mx-auto'> {cards.heading}</h2>
         </div>
     </div>));
     return (
         <div className='lg:pb-24 lg:pt-20 py-10 relative z-10 Blockchain overflow-x-clip'>
             <div className="max-w-[1140px] mx-auto px-3" >
                 <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px] text-[#02CDCF] text-center'data-aos="zoom-in">Blockchain & AI technology</h2>
-                <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  text-center pt-7 'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
-                <p className='font-recharge font-bold text-xl leading-[32px] text-center text-[#FCFCFC] lg:w-[684px] mx-auto py-7 lg:py-20'data-aos="zoom-in">By building the software on blockchain, Nexai provides the following advantages</p>
+                <p className=' font-poppins leading-[25px] text-sm sm:text-base font-normal text-[#b3b7bb]  text-center pt-7 'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                <p className='font-recharge font-bold text-base sm:text-xl leading-[32px] text-center text-[#FCFCFC] lg:w-[684px] mx-auto py-7 lg:py-20'data-aos="zoom-in">By building the software on blockchain, Nexai provides the following advantages</p>
                 <Slider {...settings}>{card}</Slider>
             </div>
             <div className='w-[302px] h-[262px] bg-[#02CDCF]  blur-[210px] rounded-full absolute right-0 top-[16%] z-[-10]'></div>

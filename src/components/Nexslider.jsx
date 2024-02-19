@@ -193,17 +193,17 @@ const Nexslider = () => {
 
     const list = productcard.map((productcard, p) => (
         <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
-            <p className='font-recharge font-bold sm:text-[24px] text-[18px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
         </div>
     ));
     const list2 = productcard2.map((productcard2, p) => (
         <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
-            <p className='font-recharge font-bold sm:text-[24px] text-[18px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
         </div>
     ));
     const list3 = productcard3.map((productcard3, p) => (
         <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" key={p} >
-            <p className='font-recharge font-bold sm:text-[24px] text-[18px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
         </div>
     ));
     return (
@@ -211,7 +211,7 @@ const Nexslider = () => {
             <div className='lg:py-20 relative z-10' id='Marketplace'>
                 <div className="max-w-[144 0px] mx-auto " >
                     <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px]  text-[#02CDCF] text-center mx-auto'data-aos="zoom-in">NexAi does all this. And more.</h2>
-                    <p className=' font-poppins leading-[25px] text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2 lg:pb-7'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                    <p className=' font-poppins leading-[25px] text-sm sm:text-base font-normal text-[#b3b7bb]  max-w-[912px] mx-auto  text-center pt-2 lg:pb-7'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                     <Slider  {...settings}>
                         {list}
                     </Slider>
