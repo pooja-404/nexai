@@ -4,7 +4,7 @@ import Button from './Button'
 
 function Power() {
     return (
-        <div className='lg:my-24 my-10 relative z-10' id='nexchat'>
+        <div className='lg:my-28 my-10 relative z-10' id='nexchat'>
             <div className='max-w-[1140px] mx-auto px-3 lg:mt-24'>
                 <div className='flex flex-wrap flex-row -mx-3 lg:pt-7'>
                     <div className='lg:w-1/2 w-full px-3 relative z-10'>

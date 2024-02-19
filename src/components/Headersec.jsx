@@ -16,7 +16,7 @@ function Headersec() {
     return (
         <div className='lg:px-12 px-5 pt-2 relative z-[1] min-h-screen'>
             <div className="pt-[13px] bg-[url(./assets/images/aibg.webp)] flex bg-center flex-col bg-cover xl:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
-                <nav className="!max-w-[1920px] lg:mx-24">
+                <nav className="!max-w-[1920px] lg:mr-24 lg:ml-48">
                     <div className='flex items-center sm:pt-7  justify-between'>
                         <div></div>
                         <ul
@@ -97,7 +97,9 @@ function Headersec() {
                     </div>
                 </div>
             </div>
-            <img src={layer} alt="poker" className='absolute bottom-[-2%]   ' />
+            <img src={layer} alt="poker" className='absolute  bottom-[-2%] ' />
+            <div className='w-[262px] h-[262px] bg-[#02CDCF]  blur-[200px] rounded-full absolute left-0 top-[12%]  lg:block hidden'></div>
+            <div className='w-[262px] h-[262px] bg-[#02CDCF]  blur-[200px] rounded-full absolute right-[9%] top-[50%] z-[1]  lg:block hidden'></div>
         </div>
     )
 }
