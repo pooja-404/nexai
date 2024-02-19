@@ -3,7 +3,7 @@ import { Unique1, Unique2, Unique3, Unique4 } from './Icons'
 
 function Unique() {
     return (
-        <div>
+        <>
             <div className='max-w-[1340px] mx-auto lg:px-24 md:px-16 px-8 lg:my-24  border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/service.webp)]  w-full bg-center bg-cover  object-cover bg-no-repeat' id='tokens'>
                 <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px] text-[#FCFCFC] mx-auto text-center pt-16' data-aos="zoom-in">Unique features</h2>
                 <p className='font-poppins font-normal text-sm sm:text-base leading-[25px] text-[#b3b7bb] text-center max-w-[397px] mx-auto pt-4' data-aos="zoom-in">ability to engage in natural, fluent conversations in over 15 languages,</p>
@@ -39,7 +39,7 @@ function Unique() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
