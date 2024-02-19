@@ -67,7 +67,7 @@ const Nexslider = () => {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
-                    CenterMode: true,
+                    // CenterMode: true,
                     arrow: false,
                 }
             },
@@ -75,9 +75,9 @@ const Nexslider = () => {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
-                    CenterMode: true,
+                    // CenterMode: true,
                     dots: false,
                     arrow: false,
 
@@ -88,7 +88,7 @@ const Nexslider = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    CenterMode: true,
+                    // CenterMode: true,
                     dots: false,
                     arrow: false,
                 }
@@ -112,10 +112,10 @@ const Nexslider = () => {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
+                    slidesToScroll: -1,
                     infinite: true,
                     dots: false,
-                    CenterMode: true,
+                    // CenterMode: true,
                     arrow: false,
                 }
             },
@@ -123,8 +123,8 @@ const Nexslider = () => {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: -1,
                     CenterMode: true,
                     dots: false,
                     arrow: false,
@@ -135,7 +135,7 @@ const Nexslider = () => {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToScroll: -1,
                     CenterMode: true,
                     dots: false,
                     arrow: false,
@@ -163,7 +163,7 @@ const Nexslider = () => {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
-                    CenterMode: true,
+                    // CenterMode: true,
                     arrow: false,
                 }
             },
@@ -183,7 +183,7 @@ const Nexslider = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    CenterMode: true,
+                    // CenterMode: true,
                     dots: false,
                     arrow: false,
                 }
@@ -192,17 +192,17 @@ const Nexslider = () => {
     };
 
     const list = productcard.map((productcard, p) => (
-        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
+        <div className=" max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
             <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
         </div>
     ));
     const list2 = productcard2.map((productcard2, p) => (
-        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
+        <div className=" max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
             <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
         </div>
     ));
     const list3 = productcard3.map((productcard3, p) => (
-        <div className=" lg:max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" key={p} >
+        <div className=" max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" key={p} >
             <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
         </div>
     ));
