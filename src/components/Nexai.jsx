@@ -5,7 +5,7 @@ import Button from './Button'
 function Nexai() {
     return (
         <>
-            <div className='max-w-[1340px] mb-24 mx-auto flex sm:px-16 px-6 justify-center items-center flex-col  border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/nexai.webp)] lg:h-[810px] h-full bg-center bg-cover object-cover bg-no-repeat'>
+            <div className='max-w-[1340px] mb-20 mx-auto flex sm:px-16 px-6 justify-center items-center flex-col  border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/nexai.webp)] lg:h-[810px] h-full bg-center bg-cover object-cover bg-no-repeat'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3'>
                         <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#02CDCF] pt-9 max-lg:text-center'data-aos="fade-down-right">What is NexAi?</h2>
