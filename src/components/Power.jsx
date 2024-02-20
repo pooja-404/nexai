@@ -7,8 +7,8 @@ function Power() {
         <div className='lg:my-28 my-10 relative z-10' id='nexchat'>
             <div className='max-w-[1140px] mx-auto px-3 lg:mt-24'>
                 <div className='flex flex-wrap flex-row -mx-3 lg:pt-7'>
-                    <div className='lg:w-1/2 w-full px-3 relative z-10'>
-                        <img src={powerhouse} alt="poker" className='max-lg:w-full  lg:-translate-x-32' data-aos="fade-right" />
+                    <div className='lg:w-1/2 w-full px-3 relative z-10 '>
+                        <img src={powerhouse} alt="poker" className='max-lg:w-full  w-[90%]  lg:-translate-x-32' data-aos="fade-right" />
                         <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[150px] rounded-full absolute left-[30%] top-[20%] z-[-10]'></div>
                     </div>
                     <div className='lg:w-1/2 w-full px-3 pt-7 lg:pt-0'>
