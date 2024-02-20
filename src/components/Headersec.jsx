@@ -14,11 +14,11 @@ function Headersec() {
         document.body.classList.toggle("max-lg:!overflow-hidden");
     }
     return (
-        <div className='lg:px-12 px-5 pt-2 relative z-[1] min-h-screen'>
-            <div className="pt-[13px] bg-[url(./assets/images/aibg.webp)] flex bg-center flex-col bg-cover xl:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
-                <nav className="!max-w-[1920px] lg:mr-24 lg:ml-48">
+        <div className='lg:px-12 md:px-5  pt-2 relative z-[1] min-h-screen'>
+            <div className="pt-[13px] bg-[url(./assets/images/aibg.webp)] flex bg-center  flex-col bg-cover xl:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
+                <nav className=" max-w-[1280px] lg:mr-24 lg:ml-48 px-3">
                     <div className='flex items-center sm:pt-7  justify-between'>
-                        <div></div>
+                        <div className='lg:block hidden'></div>
                         <ul
                             className={` gap-5 flex mobileView ${show ? "right-0" : "right-[-100%]"}`}
                         >
@@ -90,7 +90,7 @@ function Headersec() {
                     </div>
                 </nav>
                 <div className='flex-grow flex justify-center flex-col' id='home'>
-                    <div className='max-w-[1140px] px-3 xl:pl-36 '>
+                    <div className='max-w-[1140px] px-3 xl:pl-[122px] '>
                         <h2 className='font-recharge  font-normal text-white lg:text-[60px] sm:text-6xl text-4xl lg:leading-[75px] max-w-[577px]'><span className=' text-[#02CDCF]  '>Nexai</span> is an advanced AI-powered home assistant</h2>
                         <p className='font-poppins font-normal text-sm sm:text-base text-[#b3b7bb] pt-3 pb-12'>Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla odio.</p>
                         <Button name='n' text='Know More' />

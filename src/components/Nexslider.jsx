@@ -193,17 +193,17 @@ const Nexslider = () => {
 
     const list = productcard.map((productcard, p) => (
         <div className=" max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
-            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto hover:text-[#02CDCF] duration-500'>{productcard.heading}</p>
         </div>
     ));
     const list2 = productcard2.map((productcard2, p) => (
         <div className=" max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-1" key={p} >
-            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard2.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto hover:text-[#02CDCF] duration-500'>{productcard2.heading}</p>
         </div>
     ));
     const list3 = productcard3.map((productcard3, p) => (
         <div className=" max-w-[340px] h-[220px] w-full rounded-[16px]  p-[21px] shadow-[0px_4px_20px_0px_#02CDCF29] !flex justify-center items-center mt-10 mx-3  z-1 mb-24" key={p} >
-            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto'>{productcard3.heading}</p>
+            <p className='font-recharge font-bold sm:text-[24px] text-[20px] leading-[38px] text-white text-center mx-auto hover:text-[#02CDCF] duration-500'>{productcard3.heading}</p>
         </div>
     ));
     return (
