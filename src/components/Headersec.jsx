@@ -89,7 +89,7 @@ function Headersec() {
                         </label>
                     </div>
                 </nav>
-                <div className='flex-grow flex justify-center flex-col' data-aos="fade-down-left" id='home'>
+                <div className='flex-grow flex justify-center flex-col' data-aos="fade-down" data-aos-delay="3000" id='home'>
                     <div className='max-w-[1140px] px-3 xl:pl-[122px] '>
                         <h2 className='font-recharge  font-normal text-white lg:text-[60px] sm:text-6xl text-4xl lg:leading-[75px] max-w-[577px]'><span className=' text-[#02CDCF]  '>Nexai</span> is an advanced AI-powered home assistant</h2>
                         <p className='font-poppins font-normal text-sm sm:text-base text-[#b3b7bb] pt-3 pb-12'>Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla odio.</p>

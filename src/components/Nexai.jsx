@@ -24,7 +24,7 @@ function Nexai() {
                     <div className='lg:w-1/2 mx-auto px-3 relative z-[2] lg:block hidden  text-center my-auto  mix-blend-screen' data-aos="fade-down-left">
                         <div className='flex justify-end'>
                             <img src={Ai} alt="ai" className='w-[90%] mix-blend-lighten ' />
-                            <div className='md:w-[468px] w-[267px] h-[267px] md:h-[463px] bg-[#02CDCF] blur-[294px] absolute top-[2%] right-[-8%] z-[-1]'></div>
+                            <div className='md:w-[310px] w-[267px] mix-blend-lighten  h-[210px] md:h-[300px] bg-[#02CDCF] blur-[470px] absolute top-[2%] right-[-17%] z-[-1]'></div>
                         </div>
                     </div>
                 </div>

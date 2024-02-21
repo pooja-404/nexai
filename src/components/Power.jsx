@@ -7,11 +7,11 @@ function Power() {
         <div className='lg:my-28 my-10 relative z-10' id='nexchat'>
             <div className='max-w-[1140px] mx-auto px-3 lg:mt-24'>
                 <div className='flex flex-wrap flex-row -mx-3 lg:pt-7'>
-                    <div className='lg:w-1/2 w-full px-3 relative z-10 '>
-                        <img src={powerhouse} alt="poker" className='max-lg:w-full  w-[90%]  lg:-translate-x-32' data-aos="fade-right" />
-                        <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[150px] rounded-full absolute left-[30%] top-[20%] z-[-10]'></div>
+                    <div className='w-full lg:w-1/2 px-3 flex items-center justify-center relative z-[1]' data-aos="fade-right">
+                        <div className='absolute z-[1] w-[231px] h-[231px] rounded-full bg-[#02CDCF] blur-[180px]'></div>
+                        <img data-aos="zoom-in" src={powerhouse} alt="home" className='max-w-[90%] w-full  lg:-translate-x-32' />
                     </div>
-                    <div className='lg:w-1/2 w-full px-3 pt-7 lg:pt-0'>
+                    <div className='lg:w-1/2 w-full px-3 pt-8 lg:pt-0'>
                         <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#02CDCF] max-lg:text-center'data-aos="fade-left">Ai-Powered Home Assistant</h2>
                         <p className='font-poppins font-normal leading-[25px] text-[#b3b7bb] text-sm  sm:text-base lg:max-w-[517px] pt-4 max-lg:text-center'data-aos="fade-left">Nexai is an advanced AI-powered home assistant that brings the future to your fingertips. With its ability to engage in natural, fluent conversations in over 15 languages,</p>
                         <p className='font-poppins font-normal leading-[25px] text-[#b3b7bb] text-sm  sm:text-base lg:max-w-[517px] pt-2 max-lg:text-center'data-aos="fade-left">Nexai offers an incredibly futuristic experience. It can take the initiative to ask about your day, schedule meetings, provide timely reminders</p>

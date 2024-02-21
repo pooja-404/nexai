@@ -107,7 +107,7 @@ const Blockchain = () => {
                 <Slider {...settings}>{card}</Slider>
             </div>
             <div className='w-[302px] h-[262px] bg-[#02CDCF]  blur-[210px] rounded-full absolute right-0 top-[16%] z-[-10]'></div>
-            <div className='w-[302px] h-[262px] bg-[#02CDCF]  blur-[210px] rounded-full absolute left-0 top-[10%] z-20 lg:block hidden'></div>
+            <div className='w-[302px] h-[210px] bg-[#02CDCF]  blur-[210px] rounded-full absolute left-0 top-[17%] z-20 lg:block hidden'></div>
             <img src={ellipse1} alt="poker" className=' absolute right-0 top-[-4%] z-[-10]' />
             <img src={ellipse2} alt="poker" className=' absolute left-0 bottom-0 z-10 lg:block hidden ' />
         </div>

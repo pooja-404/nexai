@@ -53,7 +53,7 @@
 .Blockchain .slick-list::after {
   content: ' ';
   position: absolute;
-  top: -96%;
+  top: -34%;
   bottom: 12%;
   width: 60500px;
   /* height: 100%; */

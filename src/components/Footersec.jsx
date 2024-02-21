@@ -17,7 +17,7 @@ function Footersec() {
                             </a>
                         </div>
                     </div>
-                    <div className='lg:w-5/12 w-full px-3 sm:pt-12 pt-6 lg:pt-0' data-aos="fade-left">
+                    <div className='lg:w-5/12 w-full px-3 sm:pt-12 pt-9 lg:pt-0' data-aos="fade-left">
                         <div className='flex flex-wrap flex-row -mx-3 lg:pb-5'>
                             <div className='w-1/2 px-3'>
                                 <ul>
