@@ -20,7 +20,6 @@ function Power() {
                             <Button name='!mt-10' text='Learn More' />
                         </div>
                     </div>
-
                 </div>
             </div>
             <div className='w-[228px] h-[245px] bg-[#02CDCF] blur-[200px] rounded-full absolute right-0 top-[16%] z-[-10] '></div>

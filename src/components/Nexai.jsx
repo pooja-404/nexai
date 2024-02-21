@@ -7,7 +7,7 @@ function Nexai() {
         <>
             <div className='max-w-[1340px] mb-20 mx-auto flex sm:px-16 px-6 max-lg:pt-10   border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/nexai.webp)]   h-full bg-center bg-cover object-cover bg-no-repeat'>
                 <div className='flex flex-wrap flex-row -mx-3'>
-                    <div className='lg:w-1/2 mx-auto px-3 relative z-[2]  lg:hidden block  text-center my-auto  mix-blend-screen'>
+                    <div className='lg:w-1/2 mx-auto px-3 relative z-[2]  lg:hidden block  text-center my-auto  mix-blend-screen' data-aos="fade-down-left">
                         <div className='flex justify-center'>
                             <img src={Ai} alt="ai" className='w-[90%] mix-blend-lighten ' />
                             <div className='md:w-[468px] w-[267px] h-[267px] md:h-[463px] bg-[#02CDCF] blur-[294px] absolute top-[2%] right-[-8%] z-[-1]'></div>
@@ -21,7 +21,7 @@ function Nexai() {
                             <Button name='!mt-10' text='Learn More' />
                         </div>
                     </div>
-                    <div className='lg:w-1/2 mx-auto px-3 relative z-[2] lg:block hidden  text-center my-auto  mix-blend-screen'>
+                    <div className='lg:w-1/2 mx-auto px-3 relative z-[2] lg:block hidden  text-center my-auto  mix-blend-screen' data-aos="fade-down-left">
                         <div className='flex justify-end'>
                             <img src={Ai} alt="ai" className='w-[90%] mix-blend-lighten ' />
                             <div className='md:w-[468px] w-[267px] h-[267px] md:h-[463px] bg-[#02CDCF] blur-[294px] absolute top-[2%] right-[-8%] z-[-1]'></div>
