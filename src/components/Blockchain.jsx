@@ -102,7 +102,7 @@ const Blockchain = () => {
         <div className='lg:py-20 py-14 relative z-10 Blockchain overflow-x-clip'>
             <div className="max-w-[1140px] mx-auto px-3" >
                 <h2 className='font-recharge font-bold sm:text-[40px] text-3xl sm:leading-[50px] text-[#02CDCF] text-center'data-aos="zoom-in">Blockchain & AI technology</h2>
-                <p className=' font-poppins leading-[25px] text-sm sm:text-base font-normal text-[#b3b7bb]  text-center pt-7 'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                <p className=' font-poppins leading-[25px] text-sm sm:text-base font-normal text-[#b3b7bb]  text-center pt-7 lg:max-w-[997px] 'data-aos="zoom-in">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                 <p className='font-recharge font-bold text-base sm:text-xl leading-[32px] text-center text-[#FCFCFC] lg:w-[684px] mx-auto py-7 lg:py-20'data-aos="zoom-in">By building the software on blockchain, Nexai provides the following advantages</p>
                 <Slider {...settings}>{card}</Slider>
             </div>
