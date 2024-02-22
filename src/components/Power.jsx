@@ -8,8 +8,8 @@ function Power() {
             <div className='max-w-[1140px] mx-auto px-3 lg:mt-24'>
                 <div className='flex flex-wrap flex-row -mx-3 lg:pt-7'>
                     <div className='w-full lg:w-1/2 px-3 flex items-center justify-center relative z-[1]' data-aos="fade-right">
-                        <div className='absolute z-[1] w-[231px] h-[231px] rounded-full bg-[#02CDCF] blur-[180px]'></div>
-                        <img data-aos="zoom-in" src={powerhouse} alt="home" className='max-w-[90%] w-full  lg:-translate-x-32' />
+                        <div className='absolute lg:z-[1] lg:w-[231px] lg:h-[231px] lg:rounded-full maxlg:mix-blend-screen lg:bg-[#02CDCF] lg:blur-[180px]'></div>
+                        <img data-aos="zoom-in" src={powerhouse} alt="home" className='max-w-[90%] w-full mix-blend-screen  lg:-translate-x-32' />
                     </div>
                     <div className='lg:w-1/2 w-full px-3 pt-8 lg:pt-0'>
                         <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#02CDCF] max-lg:text-center'data-aos="fade-left">Ai-Powered Home Assistant</h2>
