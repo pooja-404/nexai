@@ -14,7 +14,7 @@ function Headersec() {
         document.body.classList.toggle("max-lg:!overflow-hidden");
     }
     return (
-        <div className='lg:px-12 md:px-5  pt-2 relative z-[1] min-h-screen'>
+        <div className='lg:px-12 md:px-5 px-2  pt-2 relative z-[1] min-h-screen'>
             <div className="pt-[13px] bg-[url(./assets/images/aibg.webp)] flex bg-center  flex-col bg-cover xl:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
                 <nav className=" max-w-[1280px] lg:mr-24 lg:ml-48 px-3">
                     <div className='flex items-center sm:pt-7  justify-between'>

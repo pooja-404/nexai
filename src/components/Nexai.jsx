@@ -4,7 +4,7 @@ import Button from './Button'
 
 function Nexai() {
     return (
-        <>
+        <div className='max-lg:mx-3 '>
             <div className='max-w-[1340px] mb-20 mx-auto flex sm:px-16 px-6 max-lg:pt-10   border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/nexai.webp)]   h-full bg-center bg-cover object-cover bg-no-repeat'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 mx-auto px-3 relative z-[2]  lg:hidden block  text-center my-auto  mix-blend-screen' data-aos="fade-down-left">
@@ -29,7 +29,7 @@ function Nexai() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default Nexai

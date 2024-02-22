@@ -4,7 +4,7 @@ import { Unique1, Unique2, Unique3, Unique4 } from './Icons'
 
 function Unique() {
     return (
-        <>
+        <div className='max-lg:mx-3 '>
             <div className=' relative z-[2]  max-w-[1340px] mx-auto lg:px-24 md:px-16 px-8 lg:my-24 overflow-hidden border-[1px] border-solid border-[#FCFCFC] rounded-[32px] bg-[url(./assets/images/un.webp)]  w-full bg-center bg-cover  object-cover bg-no-repeat' id='tokens'>
                 <div className="absolute w-[262px]  h-[233px] rounded-[50%] bg-[#02CDCF] top-0 z-[-1] right-0 blur-[170px]"></div>
                 <div className="absolute w-[262px]  h-[239px] rounded-[50%] bg-[#02CDCF] bottom-0 z-[-1] left-0 blur-[170px]"></div>
@@ -42,7 +42,7 @@ function Unique() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
