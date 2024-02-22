@@ -12,7 +12,7 @@ function Unique() {
                 <p className='font-poppins font-normal text-sm sm:text-base leading-[25px] text-[#b3b7bb] text-center max-w-[397px] mx-auto pt-4' data-aos="zoom-in">ability to engage in natural, fluent conversations in over 15 languages,</p>
                 <div className=' overflow-y-scroll sm:h-[590px] h-[520px] max-[475px]:h-[602px] flex flex-wrap flex-row -mx-3 mt-10  '>
                     <div className='md:w-1/2 w-full px-3'>
-                        <div className='lg:max-w-[364px] pt-7 rounded-[16px] bg-white px-6 pb-14 mt-2 hover:shadow-[0_0_10px_5px_#02CDCF] transition-all duration-300'>
+                        <div className='lg:max-w-[364px] pt-7 rounded-[16px] bg-white px-6 pb-14 mt-6 hover:shadow-[0_0_10px_5px_#02CDCF] transition-all duration-300'>
                             <Unique1 />
                             <p className='font-recharge font-bold text-base sm:text-xl text-[#0B0A0A] leading-[32px] pt-6 '>Remote Access and File Management</p>
                             <p className='font-poppins font-normal text-sm sm:text-base leading-[25px] text-[#0B0A0A] pt-4'>Imagine you're at work, and you realize you forgot to bring an important file stored on your desktop computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and request access to your computer. </p>
@@ -25,7 +25,7 @@ function Unique() {
 
                     </div>
                     <div className='md:w-1/2 w-full px-3'>
-                        <div className='lg:flex justify-end  lg:mt-80 mt-8 '>
+                        <div className='lg:flex justify-end  lg:mt-[378px] mt-8 '>
                             <div className=' pt-7 lg:max-w-[364px] rounded-[16px] bg-white px-6 pb-14 hover:shadow-[0_0_10px_5px_#02CDCF] transition-all duration-300'>
                                 <Unique2 />
                                 <p className='font-recharge font-bold text-base sm:text-xl text-[#0B0A0A] leading-[32px] pt-6 '>Real-time Home Monitoring</p>

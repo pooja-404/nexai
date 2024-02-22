@@ -13,7 +13,7 @@ function Ready() {
                     </div>
                 </div>
             </div>
-            <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[200px] rounded-full absolute left-0 top-0 z-[-10]'></div>
+            <div className='w-[228px] h-[228px] bg-[#02CDCF]  blur-[200px] rounded-full absolute left-0 top-[-162%] z-[-10]'></div>
             <img src={ellipse4} alt="poker" className='absolute right-0 top-[-17%] z-[-10]' />
         </div>
     )
