@@ -1,5 +1,5 @@
 import React from 'react'
-import powerhouse from '../assets/images/powerhouse.png'
+import powerhouse from '../assets/images/artboardimg.webp'
 import Button from './Button'
 
 function Power() {
