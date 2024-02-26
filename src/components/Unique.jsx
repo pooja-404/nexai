@@ -35,7 +35,7 @@ function Unique() {
                             <div className=' pt-7 lg:max-w-[364px] rounded-[16px] bg-white px-6 lg:pb-14 sm:pb-10 pb-6  hover:shadow-[0_0_10px_5px_#02CDCF] transition-all duration-300'>
                                 <Unique4 />
                                 <p className='font-recharge font-bold text-base sm:text-xl text-[#0B0A0A] leading-[32px] pt-6 '>Intelligent Contextual Awareness</p>
-                                <p className='font-poppins font-normal text-sm sm:text-base leading-[25px] text-[#0B0A0A] pt-4'>Nexai utilizes the hardware sensors placed throughout your home to understand your location and deliver relevant information or actions. For instance, if you're in the bedroom and there's a smart TV present, Nexai will automatically display on the TV screen. </p>
+                                <p className='font-poppins font-normal text-sm sm:text-base leading-[25px] text-[#0B0A0A] pt-4'>Nexai utilizes the hardware sensors placed throughout your home to understand your location and deliver relevant information or actions. For instance, if you're in the bedroom and there's a smart TV present, Nexai will automatically display on the TV screen.</p>
                             </div>
                         </div>
                     </div>

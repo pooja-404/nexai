@@ -4,7 +4,7 @@ import ellipse4 from '../assets/images/ellipse4.webp'
 
 function Ready() {
     return (
-        <div className='relative z-10'>
+        <div className='relative z-10' id='ready'>
             <div className='max-w-[1140px] px-3 mx-auto my-24'>
                 <div className='lg:flex lg:justify-between items-center'>
                     <h2 className='font-bold sm:text-[40px] text-3xl sm:leading-[50px] font-recharge text-[#FCFCFC] max-lg:text-center lg:max-w-[517px]' data-aos="fade-right">Ready to get started <span className='text-[#02CDCF]'>Talk to us Today</span></h2>
