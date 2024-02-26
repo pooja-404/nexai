@@ -90,7 +90,7 @@ const Blockchain = () => {
     };
  
     const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4  w-full px-5 flex justify-center group duration-500 py-16 ${cards.botm}`}>
-        <div className="bg-[(url(./assets/images/blockcard.webp)] hover:scale-110 duration-500 object-cover w-[367px] h-[367px] flex flex-col items-center bg-no-repeat bg-center bg-BgSize " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
+        <div className="bg-[(url(./assets/images/blockcard.webp)] hover:scale-110 duration-500 object-cover w-[330px] h-[367px] flex flex-col items-center bg-no-repeat bg-center bg-BgSize " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
             <div className='w-[58px] h-[58px] rounded-full bg-[#040404] mt-12 shadow-[0px_4px_16px_0px_#02CDCF99_inset] flex justify-center items-center'>
                 <p className='font-recharge font-bold text-[32px] leading-[50px] text-[#FCFCFC]'>{cards.text}</p>
