@@ -98,7 +98,7 @@ function Headersec() {
                 </div>
             </div>
             <img src={layer} alt="poker" className='absolute  bottom-[-2%] md:block hidden  ' />
-            <div className='w-[262px] h-[262px] bg-[#02CDCF]  blur-[200px] rounded-full absolute left-0 top-[12%]  lg:block hidden'></div>
+            <div className='w-[262px] h-[262px] bg-[#02CDCF]  blur-[400px] rounded-full absolute left-0 top-[12%]  lg:block hidden'></div>
             <div className='w-[262px] h-[262px] bg-[#02CDCF]  blur-[200px] rounded-full absolute right-[9%] top-[50%] z-[1]  lg:block hidden'></div>
         </div>
     )
