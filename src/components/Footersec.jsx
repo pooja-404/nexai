@@ -1,6 +1,7 @@
 import React from 'react'
 import { FooterFacebook, FooterTelligram, FooterTwitter } from './Icons'
 
+
 function Footersec() {
     return (
         <div className='relative z-10 bg-[url(./assets/images/footerbg.webp)] bg-center lg:bg-BgSize bg-cover object-cover bg-no-repeat'>
@@ -32,8 +33,8 @@ function Footersec() {
                             </div>
                             <div className='w-1/2 px-3 lg:flex justify-end'>
                                 <ul>
-                                    <li className="font-recharge font-bold text-base sm:text-lg leading-[21px] text-[#FCFCFC]">Information's</li>
-                                    <li className='lg:pt-4 pt-2'><a href="#home" className='text-[#b3b7bb] font-recharge font-bold text-sm sm:text-base leading-[19px]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] '>Contact</a></li>
+                                    <li className="font-recharge font-bold text-base sm:text-lg leading-[21px] text-[#FCFCFC] ">Information's</li>
+                                    <li className='lg:pt-4 pt-2'><a href="#home" className='text-[#b3b7bb] font-recharge font-bold text-sm sm:text-base leading-[19px]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] '>About Us</a></li>
                                     <li className='lg:pt-3 pt-2'><a href="#home" className='text-[#b3b7bb] font-recharge font-bold text-sm sm:text-base leading-[19px]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] '>Phone</a></li>
                                     <li className='lg:pt-3 pt-2'><a href="#home" className='text-[#b3b7bb] font-recharge font-bold text-sm sm:text-base leading-[19px]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] '>terms</a></li>
                                     <li className='lg:pt-3 pt-2'><a href="#home" className='text-[#b3b7bb] font-recharge font-bold text-sm sm:text-base leading-[19px]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] '>Privacy</a></li>
